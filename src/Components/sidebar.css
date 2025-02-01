@@ -1,0 +1,59 @@
+/* Sidebar Container */
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    background-color: #d35400;
+    color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  /* Profile Section */
+  .profile {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .profile-name {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  /* Menu Items */
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .menu-item {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .menu-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    display: block;
+    width: 100%;
+  }
+  
+  .menu-item a:hover {
+    background-color: #e67e22;
+    color: #fff;
+  }
+  
